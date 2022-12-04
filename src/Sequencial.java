@@ -8,7 +8,7 @@ public class Sequencial {
         int[] elementos = {64, 137, -16, 43, 67, 81, -90, 212, 10, 75};
 
 
-        System.out.println("Digite o numero para a busca: ");
+        //System.out.println("Digite o numero para a busca: ");
         numero = scan.nextInt();
 
         pos = posicao(numero, elementos);
