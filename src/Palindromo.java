@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Palindromo {
+public class Palindromo {// no desafio o nome da classe ficou como desafio, padrão da pagina do bootcamp
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite uma palavra:");
+        //System.out.println("Digite uma palavra:");
         String palavra = sc.nextLine();
         String palindromo = "";
 
@@ -16,10 +16,10 @@ public class Palindromo {
         }
 
         if(palindromo.equals(palavra)) {
-            System.out.print("É um palíndromo!" + "\n" + palindromo);
+            System.out.print("TRUE");
         }
         else {
-            System.out.print("Não é um palíndromo!" + "\n" + palindromo);
+            System.out.print("FALSE");
 
         }
         sc.close();
